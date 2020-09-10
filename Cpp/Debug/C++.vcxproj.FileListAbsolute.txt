@@ -1,0 +1,2 @@
+C:\lkw\Visual Studio\C++\Debug\C++.exe
+C:\lkw\Visual Studio\C++\Debug\C++.pdb
