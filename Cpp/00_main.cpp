@@ -2,7 +2,7 @@
 
 // define 값을 바꿔주면 해당 프로그램 실행
 
-#define _main main_16
+#define _main main_24
 
 int main() {
 

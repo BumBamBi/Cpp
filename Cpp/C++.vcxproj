@@ -157,6 +157,14 @@
     <ClCompile Include="14_dynamic_array.cpp" />
     <ClCompile Include="15_dynamic_struct.cpp" />
     <ClCompile Include="16_dynamic_str.cpp" />
+    <ClCompile Include="17_for_loop.cpp" />
+    <ClCompile Include="18_ctype.cpp" />
+    <ClCompile Include="19_textfile_output.cpp" />
+    <ClCompile Include="20_textfile_input.cpp" />
+    <ClCompile Include="21_textfile_random.cpp" />
+    <ClCompile Include="22_parameter.cpp" />
+    <ClCompile Include="23_D_arr.cpp" />
+    <ClCompile Include="24_func_ptr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
