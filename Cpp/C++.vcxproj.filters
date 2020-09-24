@@ -90,5 +90,17 @@
     <ClCompile Include="23_D_arr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="25_func_overloading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="26_inline.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="27_reference_var.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="28_reference_return.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
