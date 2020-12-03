@@ -8,7 +8,7 @@ struct things {
 	double price;
 };
 
-int main_15() {
+int main() {
 
 	// C
 	// struct things* pt = (struct things*)malloc(sizeof(struct things));

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main_19() {
+int main() {
 
 	//¾²±â
 	ofstream outFile;

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main_10() {
+int main() {
 
 	char c = 'a';
 
@@ -10,11 +10,11 @@ int main_10() {
 	cout << int(c) << endl;
 
 
-	cout.setf(ios_base::fixed, ios_base::floatfield);
+	cout.setf(ios_base::fixed, ios_base::floatfield);	// setformat - float 출력시, 소수점 fixed하여, 전부 표시
 
 	float a = 10.0 / 3.0;
 	double b = 10.0 / 3.0;
-
+	
 	a = a * 1e6;
 	b = b * 1e6;
 	

@@ -8,7 +8,7 @@ void func(int& rn) {
 	return;
 }
 
-int main_27() {
+int main() {
 	
 	/*
 	reference var

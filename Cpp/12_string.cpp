@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main_12() {
+int main() {
 	
 	string ans;
 

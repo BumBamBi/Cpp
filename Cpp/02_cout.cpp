@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main_02() {
+int main() {
 
 	using namespace std;
 

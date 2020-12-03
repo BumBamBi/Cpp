@@ -27,7 +27,7 @@ int sum_arr_2(const int* _arr, int _size) {
 	return sum;
 }
 
-int main_22() {
+int main() {
 	int arr[5] = { 1,2,3,4,5 };
 
 	int sum = sum_arr_1(arr, 5);

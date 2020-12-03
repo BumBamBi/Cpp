@@ -8,7 +8,7 @@ const int& func_a(int& n) {
 	return n;
 }
 
-int main_28() {
+int main() {
 
 	/*
 	1. int func(int)		-> 일반적인 함수 사용법(다만 3번처럼 int& b = func(int) 형식이면 문제 생김)

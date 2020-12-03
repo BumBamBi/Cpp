@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main_01() {
+int main() {
 
 	std::cout << "hello world!" << std::endl;
 

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main_11() {
+int main() {
 
 	const int arrSize = 20;
 	char buff[arrSize];

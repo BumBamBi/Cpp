@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main_14(){
+int main(){
 
 	// 정적 배열 - 일반 배열(생성되면 사라지지 않음)
 	int pa[10];

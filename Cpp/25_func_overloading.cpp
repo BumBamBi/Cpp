@@ -28,7 +28,7 @@ bool findPerson(unsigned int age) {
 }
 
 
-int main_25() {
+int main() {
 
 	/*
 	over + loading

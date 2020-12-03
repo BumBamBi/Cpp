@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main_07() {
+int main() {
 	
 	int a = 50;
 	int b(50);

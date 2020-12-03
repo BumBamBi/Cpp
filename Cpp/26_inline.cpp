@@ -6,7 +6,7 @@ inline double cal_sum(double a, double b) {
 	return(a + b);
 }
 
-int main_26() {
+int main() {
 
 	cout << cal_sum(1.0, 2.0) << endl;
 

@@ -22,7 +22,7 @@ char* getname() {
 	return pn;
 }
 
-int main_16() {
+int main() {
 
 	char* name;
 	

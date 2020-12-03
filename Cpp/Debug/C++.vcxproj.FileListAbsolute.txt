@@ -2,3 +2,5 @@ C:\lkw\Visual Studio\C++\Debug\C++.exe
 C:\lkw\Visual Studio\C++\Debug\C++.pdb
 C:\lkw\Visual Studio\Cpp\Cpp\Debug\Cpp.exe
 C:\lkw\Visual Studio\Cpp\Cpp\Debug\Cpp.pdb
+C:\lkw\Visual_Studio\Cpp\Cpp\Debug\Cpp.exe
+C:\lkw\Visual_Studio\Cpp\Cpp\Debug\Cpp.pdb

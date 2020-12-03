@@ -46,7 +46,7 @@ int sum_2d_arr_p(int (*_arr)[3], int _row_cnt) {
 	return sum;
 }
 
-int main_23() {
+int main() {
 	
 	int arr_2d[2][3] = {
 		{1, 1, 1},

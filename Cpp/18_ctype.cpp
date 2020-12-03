@@ -2,31 +2,31 @@
 
 using namespace std;
 
-int main_18() {
+int main() {
 
 	char ch;
 
 	while (true){
 		cin.get(ch);	// 처음 문자 저장
-		cin.get();		// 엔터키 아무데도 저장X
+		//cin.get();		// 엔터키 아무데도 저장X
 
 		if (isalnum(ch))
-			cout << "isalnum" << endl;
+			cout << "is_alnum" << endl;		// 알파벳 or 숫자
 		if (isalpha(ch))
-			cout << "isalpha" << endl;
+			cout << "is_alpha" << endl;		// 알파벳
 		if (isblank(ch))
-			cout << "isblank" << endl;
+			cout << "is_blank" << endl;		// 공백
 		if (isspace(ch))
-			cout << "isspace" << endl;
+			cout << "is_space" << endl;		// 스페이스 바
 		if (isdigit(ch))
-			cout << "isdigit" << endl;
+			cout << "is_digit" << endl;		// 0~10
 		if (ispunct(ch))
-			cout << "ispunct" << endl;
+			cout << "is_punct" << endl;		// , or .
 		if (isupper(ch))
-			cout << "isupper" << endl;
+			cout << "is_upper" << endl;		// 대문자
 		if (islower(ch))
-			cout << "islower" << endl;
-		if (islower(ch) == 'q')
+			cout << "is_lower" << endl;		// 소문자
+		if ((ch) == 'q')
 			break;
 	}
 
@@ -45,6 +45,8 @@ int main_18() {
 	toupper
 	tolower
 	*/
+
+	cout << char(toupper('a')) << endl;
 
 	return 0;
 }

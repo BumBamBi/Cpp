@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int main_04(){
+int main(){
 
 	using namespace std;
 

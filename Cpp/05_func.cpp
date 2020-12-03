@@ -2,7 +2,7 @@
 
 int add_2_num(int _a, int _b);
 
-int main_05() {
+int main() {
 
 	using namespace std;
 		

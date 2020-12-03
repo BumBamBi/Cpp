@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main_13() {
+int main() {
 
 	int* pi = new int;	// int를 저장할 공간을 만들어서, 그것을 가리키는 pi 생성
 

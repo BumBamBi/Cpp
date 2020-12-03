@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main_08() {
+int main() {
 
 	int a = 10;		// 10진수
 	int b = 0x10;	// 16진수

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main_06(){
+int main(){
 
 	short s_var;
 	int i_var;

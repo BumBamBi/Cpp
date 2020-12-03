@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main_21() {
+int main() {
 
 	// ÀÐ±â
 	ifstream inFile;
