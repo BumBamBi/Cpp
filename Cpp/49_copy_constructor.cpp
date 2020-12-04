@@ -28,13 +28,15 @@ private:
 public:
 	Car(int _y) {
 		cout << "생성자 호출" << endl;
-		char* ptr[3000000]; //30mb;
+		ptr = new char[30000]; //3mb;
+		ptr[0] = 'a';
 	}
 	Car(Car& _c) {
 		cout << "copy 생성자 호출" << endl;
 		year = _c.year;
 
-		ptr = new char[300000]; // 또 다른 30mb 공간을 할당 받음
+		// ptr = _c.ptr;
+		ptr = new char[30000]; // 또 다른 3mb 공간을 할당 받음
 	}
 	~Car() {
 		delete[] ptr;
@@ -46,7 +48,6 @@ public:
 };
 
 int main() {
-
 	Car c(2010);
 	c.show();
 
@@ -60,12 +61,16 @@ int main() {
 	// 메모리 관련 부분
 
 	Car a(100);
-
+	
 	{
-		// b는 괄호를 끝내면서 소멸하고, 그러면서 a가 가리키던 30mb 부분도 할당해제 시킴	== shallow copy
-		// a의 30mb가 벙찌는 상황이 발생
-		// 따라서, cpoy constructor를 통해 30mb를 새로 할당받는 부분을 만듦					== deep copy
 		Car b = a;
+
+		// ptr = _c.ptr로 했다면, (shallow copy)
+		// b가 괄호를 끝내면서 소멸할 때, a가 가리키던 3mb 부분도 할당해제 시킴	
+		// 따라서, a의 3mb가 벙찌는 상황이 발생
+
+		// ptr = new chaar[30000]을 통해서, (deep copy)
+		//  3mb를 새로 할당받는 부분을 만들어서 위와같은 상황이 안생기게 함
 	}
 
 	return 0;
