@@ -14,6 +14,7 @@
 #include<queue>
 #include<vector>
 #include<string>
+#include<deque>
 
 using namespace std;
 
@@ -69,12 +70,12 @@ int main() {
 
 	// 2) queue
 	queue<Person> myqueue;
-	//queue<int, vector<int>> myqueue;	// container ÁöÁ¤
+	//queue<Person> myqueue;	// container ÁöÁ¤
 
 	myqueue.push(Person("james", 20));
 	myqueue.push(Person("Tomas", 19));
 	myqueue.push(Person("Carry", 21));
-
+	
 	cout << "front : " << myqueue.front().name << endl;	// popÃ³·³ »©³»´Â°ÍÀÌ ¾Æ´Ô
 	cout << "back  : " << myqueue.back().name << endl;	// popÃ³·³ »©³»´Â°ÍÀÌ ¾Æ´Ô
 	cout << "size  : " << myqueue.size() << endl;
@@ -89,12 +90,13 @@ int main() {
 	cout << "======================" << endl;
 
 	// 3) priority_queue
-	priority_queue<Person,vector<Person>, ComparePerson> mypqueue;
+	priority_queue<Person, vector<Person>, ComparePerson> mypqueue;
+	//priority_queue<Person, deque<Person>, ComparePerson> mypqueue;
 
 	mypqueue.push(Person("James", 22));
 	mypqueue.push(Person("Tomas", 19));
 	mypqueue.push(Person("Carry", 21));
-
+	
 	cout << "top   : " << mypqueue.top().name << endl;	// popÃ³·³ »©³»´Â°ÍÀÌ ¾Æ´Ô
 	cout << "size  : " << mypqueue.size() << endl;
 	cout << "empty : " << mypqueue.empty() << endl;

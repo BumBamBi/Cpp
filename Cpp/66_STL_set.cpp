@@ -91,11 +91,11 @@ int main() {
 
 	set<Person> myset2;
 
-	myset2.insert(Person("Jame1", 1));
-	myset2.insert(Person("Jame2", 2));
+	myset2.insert(Person("Jame1", 5));
+	myset2.insert(Person("Jame2", 4));
 	myset2.insert(Person("Jame3", 3));
-	myset2.insert(Person("Jame4", 4));
-	myset2.insert(Person("Jame5", 5));
+	myset2.insert(Person("Jame4", 2));
+	myset2.insert(Person("Jame5", 1));
 
 	// 1이  있다면, 그 위치에 대한 interator
 	//		없다면, myset.end()

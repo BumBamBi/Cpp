@@ -4,6 +4,8 @@ static 멤버 변수
 	다른 객체에서 접근 가능
 	객체 없이도 class로 접근 가능
 	초기화는 따로 해줘야 함
+	
+	여러 객체가 생겨도 단 하나의 변수로 생각됨.(한 객체에서 값을 바꾸면, 전체 변경)
 
 const
 	상수가 되어버림
@@ -45,24 +47,23 @@ int Car::year = 1;
 
 int main() {
 
-	//1
+	// 1
 	Car c;
-	c.show();
-
 	Car d;
-	d.show();
 
+	c.show();
+	d.show();
 	cout << "year : " << Car::year << endl;
 
 	// 10;
-	Car::year = 10;
+	Car::year = 10;	
 
 	c.show();
 	d.show();
 	cout << "year : " << Car::year << endl;
 
 	// 100
-	c.change(100);
+	c.change(100);	// c.year = 100;
 
 	c.show();
 	d.show();
