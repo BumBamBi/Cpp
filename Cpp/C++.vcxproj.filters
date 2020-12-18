@@ -225,6 +225,9 @@
     <ClCompile Include="68_STL_algorithm_find.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="final.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrintData.h">

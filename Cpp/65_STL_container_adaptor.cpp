@@ -69,8 +69,8 @@ int main() {
 	cout << "======================" << endl;
 
 	// 2) queue
+	//queue<Person,vector<Person>> myqueue;		// 벡터에는 pop_front기능이 없어서 사용 불가
 	queue<Person> myqueue;
-	//queue<Person> myqueue;	// container 지정
 
 	myqueue.push(Person("james", 20));
 	myqueue.push(Person("Tomas", 19));

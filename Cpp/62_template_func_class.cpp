@@ -16,6 +16,10 @@ template<typename T>
 T get_max(T a, T b) {
 	return (a >= b) ? a : b;		// 조건 ? 참 : 거짓
 }
+template<>
+char get_max(char a, char b) {
+	return 'z';
+}
 
 template<typename T1, typename T2>
 T2 do_something(T1 a, T2 b) {
@@ -48,6 +52,7 @@ int main() {
 	// function 
 	cout << "bigger one is : " << get_max(4, 5) << endl;
 	cout << "bigger one is : " << get_max(4.5, 3.1) << endl;
+	cout << "bigger one is : " << get_max('b', 'a') << endl;
 	cout << "bigger one is : " << get_max("abd", "abc") << endl;
 
 

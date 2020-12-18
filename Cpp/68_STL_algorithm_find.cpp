@@ -46,6 +46,7 @@ public:
 	}
 };
 
+// 따로 함수를 만듬
 bool findCondition(Person& p) {
 	if (p.getAge() < 3) {
 		return true;
@@ -54,6 +55,7 @@ bool findCondition(Person& p) {
 		return false;
 	}
 }
+
 
 int main() {
 
@@ -91,7 +93,7 @@ int main() {
 	cout << "----find_if-----------------------" << endl;
 	// find_if
 	// 조건에 맞는 가장 첫 번째 요소 리턴
-	pos = find_if(peopleDB.begin(), peopleDB.end(), findCondition);
+	pos = find_if(peopleDB.begin(), peopleDB.end(), findCondition);		// 함수를 따로 만들어야함
 	// lambda (함수명을 []로 해서 그냥 함수 만들어버림)
 	pos = find_if(peopleDB.begin(), peopleDB.end(),
 		[](Person& p) {

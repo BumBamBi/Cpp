@@ -21,7 +21,7 @@
 #include<iostream>
 
 using namespace std;
-
+// 부모 --------------------------------------
 class A {
 public:
 	A() {
@@ -38,7 +38,10 @@ public:
 	// pure virtual func
 	// virtual type func() = 0;의 형태
 };
+// -------------------------------------------
 
+
+// 자식 --------------------------------------
 class AA : public A {
 public:
 	AA() {
@@ -64,7 +67,7 @@ public:
 		cout << "I am AB" << endl;
 	}
 };
-
+// -------------------------------------------
 
 void doSomething(A* _p) {
 	_p->iam();	// i am A

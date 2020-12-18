@@ -1,27 +1,18 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(C++.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  66_STL_set.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstddef(127,22): error C2676: 이항 '<': 'const _Ty'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+  62_template_func_class.cpp
+C:\lkw\Visual_Studio\Cpp\Cpp\62_template_func_class.cpp(26,12): warning C4244: '초기화 중': 'T2'에서 'T1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
-              _Ty=Person
+              T2=double
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstddef(126): message : 클래스 템플릿 멤버 함수 'bool std::less<Person>::operator ()(const _Ty &,const _Ty &) const'을(를) 컴파일하는 중입니다.
+          and
+          [
+              T1=int
+          ]
+C:\lkw\Visual_Studio\Cpp\Cpp\62_template_func_class.cpp(59): message : 컴파일되는 함수 템플릿 인스턴스화 'T2 do_something<int,double>(T1,T2)'에 대한 참조를 확인하세요.
           with
           [
-              _Ty=Person
+              T2=double,
+              T1=int
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(1546): message : 컴파일되는 함수 템플릿 인스턴스화 'bool std::less<Person>::operator ()(const _Ty &,const _Ty &) const'에 대한 참조를 확인하세요.
-          with
-          [
-              _Ty=Person
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(1326): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::less<Person>'에 대한 참조를 확인하세요.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(1326): message : 컴파일되는 변수 템플릿 'const bool is_empty_v<std::less<Person> >'에 대한 참조를 확인하세요.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\set(54): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>'에 대한 참조를 확인하세요.
-          with
-          [
-              _Kty=Person,
-              _Pr=std::less<Person>,
-              _Alloc=std::allocator<Person>
-          ]
-C:\lkw\Visual_Studio\Cpp\Cpp\66_STL_set.cpp(79): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::set<Person,std::less<Person>,std::allocator<Person>>'에 대한 참조를 확인하세요.
+  C++.vcxproj -> C:\lkw\Visual_Studio\Cpp\Cpp\Debug\Cpp.exe
